@@ -1,0 +1,30 @@
+.passwordReg-Check{
+    display: block;
+    color: white;
+    font-size: 2rem;
+    width: 90%;
+    margin-left: 15%;
+}
+
+.nickname-Check{
+    display: block;
+    color: white;
+    font-size: 2rem;
+    width: 90%;
+    margin-left: 15%;
+}
+
+.emailReg-Check{
+    display: block;
+    color: white;
+    font-size: 2rem;
+    width: 90%;
+    margin-left: 15%;
+}
+
+.emailSign-Check{
+    display: block;
+    color: white;
+    font-size: 2rem;
+    width: 80%;
+}

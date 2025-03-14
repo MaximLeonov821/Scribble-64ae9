@@ -1,0 +1,69 @@
+.nav.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.greeting.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+main.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.img-header.visible{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.description-header.visible{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.description-footer.visible{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.img-footer.visible{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.inf.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.registration.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.reg.visible{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.choice.visible{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.sign.visible{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.about.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.posts.visible{
+    opacity: 1;
+    transform: translateY(0);
+}

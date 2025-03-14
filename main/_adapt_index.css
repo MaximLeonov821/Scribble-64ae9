@@ -1,0 +1,104 @@
+@media (min-width: 2200px){
+    :root{
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 1060px){
+    .inf{
+        width: 80% !important; 
+        margin: 5% 0 5% 15% !important;
+    }
+    .registration{
+        grid-template-columns: repeat(1, 70%) !important;
+        justify-content: center;
+        row-gap: 5vw;
+    }
+    .discussions{
+        padding: 5vh 10vw!important;
+    }
+    .description-header{
+        row-gap: 1vh !important;
+    }
+    .description-footer{
+        row-gap: 1vh !important;
+    }
+}
+
+@media (max-width: 958px){
+    #temsDialog{
+       row-gap: 2vh !important;
+    }
+    .closeDialog{
+        bottom: 93% !important;
+    }
+    #getDialogState p{
+        margin-left: 25% !important;
+        width: 70% !important;
+    }
+    #textInput{
+        padding: 10% 0 !important;
+
+    }
+}
+
+@media (max-width: 830px){
+    :root{
+        font-size: 45%;
+    }
+}
+
+@media (max-width: 635px){
+    #textInput{
+        width: 95%;
+    }
+}
+
+@media (max-width: 590px){
+    .discussions{
+        row-gap: 5vh !important;
+        padding: 2vh !important;
+    }
+    .reg{
+        row-gap: 2vh !important;
+    }
+    .sign{
+        row-gap: 2vh !important;
+    }
+    .sign button{
+        height: 3vh !important;
+    }
+    .reg button{
+        height: 3vh !important;
+    }
+}
+
+@media (max-width: 560px){
+    :root{
+        font-size: 35%;
+    }
+}
+
+@media (max-width: 540px){
+    #temsDialog{
+       row-gap: 1vh !important;
+    }
+}
+
+@media (max-width: 520px){
+    .description-header{
+        row-gap: 1vh !important;
+    }
+}
+
+@media (max-width: 430px){
+    :root{
+        font-size: 32%;
+    }
+}
+
+@media (max-width: 410px){
+    :root{
+        font-size: 30%;
+    }
+}

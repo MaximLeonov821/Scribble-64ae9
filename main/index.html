@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_index.css">
+    <link rel="shortcut icon" href="images/star.png" type="image/x-icon">
+    <title>Scribble</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <h1><a href="#" class="main">Scribble</a></h1>
+            <a href="#posts">Темы обсуждений</a>
+            <a href="#about">О нас</a>
+            <a href="#inf" id="btnSign" style="display: block;">Войти</a>
+            <button id="btnProfile" type="button" style="display: none;">Профиль</button>
+        </nav>
+        <div id="sidebar" class="sidebar">
+            <button class="closeBtn" id="closeBtn">&times;</button>
+            <h5>Профиль</h5>
+            <p>Привет <span id="nickname"><wbr id="nickname">sdfsdfsdfds </wbr></span></p>
+            <button type="button" id="getState">Добавить статью</button>
+            <button type="button" id="signOutButton">Выйти</button>
+        </div>
+        <dialog id="getDialogState">
+            <button type="button" class="closeDialog">&times;</button>
+            <p>Выберите тему:</p>
+            <div class="temsDialog" id="temsDialog" style="display: flex">
+                <button type="button" class="btnTem" data-theme="sport">Спорт</button>
+                <button type="button" class="btnTem" data-theme="game">Игры</button>
+                <button type="button" class="btnTem" data-theme="other">Другое</button>
+            </div>
+            <form id="textForm">
+                <input type="hidden" id="selectedTheme" name="selectedTheme" value="">
+                <textarea id="textInput" name="textInput" rows="10" cols="40" placeholder="Введите текст"></textarea>
+                <button type="submit" id="saveTextButton">Сохранить</button> 
+            </form>
+        </dialog>
+    </header>
+    <div class="greeting"><p>Приветсвуем на нашем сайте Scribble! Пролистай вниз и ознакомься с функционалом!</p></div>
+    <main>
+        <div class="discussions">
+            <div class="img-header">
+                <img src="images/1_img.jpg" alt="">
+            </div>
+            <div class="description-header">
+                <h2>Создавайте и публикуйте!</h2>
+                <p>Создавайте свои собственные статьи на предложенные нами темы!</p>
+                <p>Темы можно найти сверху в разделе <b>"темы обсуждений"</b>.</p>
+            </div>
+            <hr class="hr">
+            <div class="description-footer">
+                <h2>Создайте профиль!</h2>
+                <p>Чтобы писать статьи и публиковать нужно зарегистрироваться на нашем сайте!</p>
+            </div>
+            <div class="img-footer">
+                <img src="images/2_img.jpg" alt="">
+            </div>
+        </div>
+    </main>
+    <div class="inf" id="inf" style="display: block;">
+        <p>Чтобы зарегистрироваться, заполните форму ниже</p>
+    </div>
+    <footer>
+        <div class="registration" id="registration" style="display: grid;">
+            <form action="" id="reg" class="reg">
+                <input type="email" class="email" name="email" id="email" placeholder="Email" required>
+                <input type="password" class="password" name="password" id="password" placeholder="Password" required>
+                <input type="text" class="nickname" name="nickname" id="nicknameInput" placeholder="Введите свой ник" required>
+                <button type="submit" id="reg-btn">Зарегистрироваться</button>
+            </form>
+            <p class="choice">Или</p>
+            <form action="" id="sign" class="sign">
+                <input type="email" class="email-sign" name="email" id="email-sign" placeholder="Email" required>
+                <input type="password" class="password" name="password" id="password-sign" placeholder="password" required>
+                <p>Не помните пароль?</p>
+                <button type="button" class="rebut" id="rebut">Сбросить</button>
+                <button type="submit" class="signUp">Войти</button>
+            </form>
+            <dialog id="myDialog">
+                <button type="button" id="closeDialog">&times;</button>
+                <form action="" id="passwordReset">
+                    <p>Введите адрес электронной почты:</p>
+                    <input type="email" class="reset-email" id="reset-email" name="email" placeholder="Email" required>
+                    <span id="reset-info"></span>
+                    <button type="submit" class="reset-btn">Сбросить</button>
+                </form>
+            </dialog>
+        </div>
+        <div class="posts" id="posts" style="display: block;">
+            <div class="tems" id="tems" style="display: flex;">
+                <button type="button" class="btnTem" data-target="textSport">Спорт</button>
+                <button type="button" class="btnTem" data-target="textGame">Игры</button>
+                <button type="button" class="btnTem" data-target="textOther">Обо всем</button>
+            </div>
+            <div id="textSport" class="text"></div>
+            <div id="textGame" class="text"></div>
+            <div id="textOther" class="text"></div>
+        </div>
+        <div class="about" id="about">
+            <h4>О нас</h4>
+            <ul>
+                <li><a href="https://t.me/collector100120" class="social-link" target="_blank"><img src="images/vk.png" alt=""></a></li>
+                <li><a href="https://t.me/collector100120" class="social-link" target="_blank"><img src="images/twit.png" alt=""></a></li>
+                <li><a href="https://t.me/collector100120" class="social-link" target="_blank"><img src="images/tg.png" alt=""></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script type="module" src="./dist/bundle.js"></script>
+    <script src="./_script.js?v=3"></script>
+</body>
+</html>

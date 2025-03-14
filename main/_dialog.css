@@ -1,0 +1,61 @@
+body.blocking{
+    filter: blur(5px);
+    overflow: hidden;
+}
+
+#myDialog{
+    position: relative;
+    margin: 10% auto;
+    width: 35%;
+    padding: 7% 5% 7% 5%;
+    border: black 10px solid;
+    border-radius: 5vw;
+    background-color: var(--color-grad);
+    outline: none;
+    width: 50%;
+}
+
+#closeDialog{
+    position: absolute;
+    bottom: 80%;
+    right: 90%;
+    font-size: 5rem;
+    background-color: var(--color-grad);
+    border: none;
+}
+
+#passwordReset{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+    align-items: center;
+}
+
+#passwordReset p{
+    font-size: 2.4rem;
+}
+
+.reset-email{
+    width: 70%;
+    border-radius: 8vw;
+    font-size: 1.6rem;
+    padding: 3%;
+    border: none;
+}
+
+.reset-email:focus{
+    outline: var(--color-black) solid 3px;
+}
+
+#reset-info{
+    font-size: 2rem;
+}
+
+.reset-btn{
+    padding: 3% 8% 3% 8%;
+    font-size: 2rem;
+    border-radius: 5vw;
+    border: none;
+    background-color: var(--color-black);
+    color: white;
+}

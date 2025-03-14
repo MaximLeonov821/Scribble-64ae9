@@ -1,0 +1,103 @@
+.posts{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    border-radius: 10vw;
+    padding: 7%;
+    margin: 10% 0;
+    opacity: 0;
+    transform: translateY(8vh);
+    transition: opacity 1.4s ease-in-out 0.3s, transform 1.4s ease-in-out 0.3s;
+}
+
+.tems{
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 7%;
+}
+
+.btnTem{
+    padding: 1% 4% 1% 4%;
+    border-radius: 8vw;
+    font-size: 2.4rem;
+    background-color: var(--color-grad);
+    border: 5px solid orange;
+    outline: none;
+}
+
+.btnTem:hover{
+    background-color: rgb(211, 211, 196);
+}
+
+.btnTem:focus{
+    outline: 5px solid white;
+}
+
+#textSport{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5vw;
+    width: 100%;
+    color: white;
+    font-size: 2.4rem;
+    word-break: break-word; /* Разрешить разрыв слов */
+    overflow-wrap: break-word; /* Разрешить разрыв слов */
+}
+
+#textGame{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5vw;
+    width: 100%;
+    color: white;
+    font-size: 2.4rem;
+    word-break: break-word; /* Разрешить разрыв слов */
+    overflow-wrap: break-word; /* Разрешить разрыв слов */
+}
+
+#textOther{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5vw;
+    row-gap: 5vh;
+    width: 100%;
+    color: white;
+    font-size: 2.4rem;
+    word-break: break-word; /* Разрешить разрыв слов */
+    overflow-wrap: break-word; /* Разрешить разрыв слов */
+}
+
+.text{
+    text-align: start;
+    color: white;
+    display: none; /* Скрываем все блоки по умолчанию */
+    padding: 5%;
+    margin-top: 10px;
+    border: 3px solid var(--color-grad);
+    border-radius: 5vw;
+}
+
+.active{
+    background-color: rgb(211, 211, 196);
+}
+
+.textarea-mimic {
+    width: 100%;
+    white-space: pre-wrap; /* Важно! Разрешает перенос строк */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 2.2rem;
+    border-bottom: 3px solid var(--color-grad);
+    border-top: 3px solid var(--color-grad);
+    padding: 10%;
+    overflow-x: auto; /*  Добавляем горизонтальную прокрутку на случай, если текст шире, чем div */
+}
+
+.pTextContent{
+    font-size: 2.4rem;
+    color: var(--color-grad);
+    margin-bottom: 10%;
+    line-height: 150%;
+}
+
+
