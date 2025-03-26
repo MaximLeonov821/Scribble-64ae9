@@ -15,7 +15,7 @@
 3) Хостинг: Firebase Hosting
 4) Инструменты: Webpack, npm, Babel
 
-#Скриншоты проекта:
+# Скриншоты проекта:
 
 ![image](https://github.com/user-attachments/assets/add405ab-14d2-45a2-aefe-b1a2787894ad)
 ![image](https://github.com/user-attachments/assets/81190f80-e917-4d51-b858-58f98a7b0f0c)
